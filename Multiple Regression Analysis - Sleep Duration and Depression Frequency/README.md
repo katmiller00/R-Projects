@@ -66,10 +66,10 @@ List the ready features here:
 ### Project Requirements/Dependencies
 
 - R version 4.4.0
-- tidyverse package version 2.0.0
-- stargazer package version 5.2.3
-- dplyr package version 1.1.4
-- ggplot2 package version 3.5.1
+  - tidyverse package version 2.0.0
+  - stargazer package version 5.2.3
+  - dplyr package version 1.1.4
+  - ggplot2 package version 3.5.1
 
 ### Installation
 
