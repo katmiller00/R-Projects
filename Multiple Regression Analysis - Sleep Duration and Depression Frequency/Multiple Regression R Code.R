@@ -1,11 +1,12 @@
 ### Housekeeping
 rm(list = ls())
+setwd("D:\\Multiple Regression Analysis - Sleep Duration and Depression Frequency")
 library(tidyverse)
 library(stargazer) # pretty looking tables
 library(dplyr)
 
 ################################################################################
-# Load and prepare data
+#Load and prepare data
 ################################################################################
 
 # Load data
@@ -40,7 +41,7 @@ new_data$computer_hours_perweek <- ifelse(new_data$computer_hours_perweek =="Non
                                             new_data$computer_hours_perweek == "1 to 3 hours a week", 0, 1)
 
 ################################################################################
-# Create Summary Statistics Table
+#Create Summary Statistics Table
 ################################################################################
 new_data %>%
   select(-hours_wk_yr, -wage_sal) %>%
@@ -48,10 +49,10 @@ new_data %>%
   stargazer(type = 'text', digits = 2, median=TRUE)
 
 ################################################################################
-# Relationship between sleep  and depression ratio
+#Relationship between sleep  and depression ratio
 ################################################################################
 
-# Load necessary libraries
+#Load necessary libraries
 library(ggplot2)
 
 ggplot(new_data, aes(x = sleep_hours_pernight, y = factor(depressed_lastmo), fill = factor(depressed_lastmo))) +
@@ -61,11 +62,11 @@ ggplot(new_data, aes(x = sleep_hours_pernight, y = factor(depressed_lastmo), fil
   ggtitle("Relationship between Sleep and Depression") +
   theme_minimal()
 
-# Correlation
+#Correlation
 corr_depressed_lastmo_sleep_hours_pernight <- cor(new_data$sleep_hours_pernight, new_data$depressed_lastmo)
 
 ################################################################################
-# Correlation Table
+#Correlation Table
 ################################################################################
 
 new_data %>% 
