@@ -35,7 +35,7 @@ new_data <- na.omit(new_data)
 new_data <- new_data %>% 
   mutate(depressed_lastmo = ifelse(depressed_lastmo=="None of the time",0,1)) 
   
-#create dummy variable, 1 denoting some of the time and all of the time, 0 denoting none of the time
+#Create dummy variable, 1 denoting some of the time and all of the time, 0 denoting none of the time
 new_data$computer_hours_perweek <- ifelse(new_data$computer_hours_perweek =="None"|
                                             new_data$computer_hours_perweek =="Less than 1 hour a week"|
                                             new_data$computer_hours_perweek == "1 to 3 hours a week", 0, 1)
