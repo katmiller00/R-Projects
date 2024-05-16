@@ -16,7 +16,7 @@ This project was conducted for an Econ 340 Economic Research Methods course at C
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Screenshots](#screenshots)
+* [Tables and Graphs](#Tables-and-Graphs)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
@@ -45,23 +45,77 @@ List the ready features here:
 - **Regression Analysis:** Utilized multiple regression analysis techniques to explore the relationship between sleep duration and depression while accounting for other variables.
 - **Findings Interpretation:** Interpreted the results to highlight the implications for promoting healthy sleep habits and potentially reducing depression risk.
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-![Linear Regression](ECON-340-Summary-Statistics.png)
+## Tables and Graphs
+
+#### Summary Statistics
+![ECON 340 Summary Statistics](https://github.com/katmiller00/R-Projects/assets/159479250/53791cb9-9f6f-4732-ac74-19c6df3322e7)
+
+#### Bar Graph
+![ECON 340 Bar Graph](https://github.com/katmiller00/R-Projects/assets/159479250/8ba27a15-42f8-4419-9625-27ca14ba39c4)
+
+#### Linear Regression
+![ECON 340 Linear Regression](https://github.com/katmiller00/R-Projects/assets/159479250/045a5b53-d283-4ee0-8f0d-26bdfe159f4b)
+
+#### Multiple Regression
+![ECON 340 Multiple Regression](https://github.com/katmiller00/R-Projects/assets/159479250/a3ec76fe-fb27-4b29-8218-1b0233762b5f)
+
+
+
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+### Project Requirements/Dependencies
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+- R version 4.4.0
+- tidyverse package version 2.0.0
+- stargazer package version 5.2.3
+- dplyr package version 1.1.4
+- ggplot2 package version 3.5.1
+
+### Installation
+
+1. **Install R**: Download and install R from [CRAN](https://cran.r-project.org/).
+2. **Install R Packages**: Open R and run the following commands to install the required packages:
+    ```R
+    install.packages("tidyverse")
+    install.packages("stargazer")
+    install.packages("dplyr")
+    install.packages("ggplot2")
+    ```
+3. **Clone Repository**: Clone this repository to your local machine using Git:
+    ```bash
+    git clone https://github.com/your-username/R-Projects.git
+    ```
+4. **Navigate to Project Folder**: Navigate to the project folder:
+    ```bash
+    cd R-Projects/Multiple\ Regression\ Analysis\ -\ Sleep\ Duration\ and\ Depression\ Frequency
+    ```
+### Getting Started
+
+1. **Open RStudio**: Open RStudio or your preferred R environment.
+2. **Set Working Directory**: Set your working directory to the project folder:
+    ```R
+    setwd("path/to/project/folder")
+    ```
+3. **Run the Analysis**: Open the R script file (`analysis.R`) and run the code to perform the analysis.
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+### Example 1: Generate a Scatter Plot
+- Load the necessary libraries:
+```R
+library(ggplot2)
 
-`write-your-code-here`
+- Generate a scatter plot of sleep duration and depression frequency:
 
+ggplot(data = new_data, aes(x = sleep_hours_pernight, y = depressed_lastmo)) +
+  geom_point() +
+  xlab("Sleep Hours Per Night") +
+  ylab("Depressed Last Month")
+### Example 2: 
+- Perform a linear regression analysis:
+
+model <- lm(depressed_lastmo ~ sleep_hours_pernight, data = new_data)
+summary(model)
 
 ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
