@@ -14,6 +14,7 @@ This project was conducted for an Econ 340 Economic Research Methods course at C
 ## Table of Contents
 
 * [General Info](#general-information)
+* [Research Paper](#research-paper)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Tables and Graphs](#Tables-and-Graphs)
@@ -25,7 +26,13 @@ This project was conducted for an Econ 340 Economic Research Methods course at C
 
 ## General Information
 - This project investigates the relationship between sleep duration and depression frequency using data from the National Longitudinal Survey of Youth (NLSY). We analyzed whether individuals who sleep fewer hours are more likely to experience depression, controlling for variables such as computer time, hours worked per week, and salary wages. Our findings indicate a weak negative relationship between sleep duration and depression frequency, suggesting that insufficient sleep is associated with a higher likelihood of depression. However, the influence of each variable on depression is minimal, highlighting the need for further research to consider additional factors like genetic predisposition, social support, and lifestyle. The results emphasize the importance of promoting healthy sleep habits to reduce depression risk potentially.
-  
+
+## Research Paper
+
+For more detailed information, please refer to our research paper:
+
+- [Multiple Regression Research Paper](Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20Research%20Paper.pdf)
+
 ## Technologies Used
 - **R** version 4.4.0
   - tidyverse package version 2.0.0
