@@ -9,7 +9,7 @@
 
 - **Conclusion:** Emphasizes the importance of healthy sleep habits in reducing depression risk.
 
-This project was conducted for an Econ 340 Economic Research Methods course at California State University, Fullerton. See <sub>[Acknowledgements](#acknowledgements)<sub>
+This project was conducted for an Economic Research Methods course at California State University, Fullerton. See [Acknowledgements](#acknowledgements)
 
 ## Table of Contents
 
