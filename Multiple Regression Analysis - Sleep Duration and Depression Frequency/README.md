@@ -31,7 +31,7 @@ This project was conducted for an Economic Research Methods course at California
 ## Research Paper
 
 For more detailed information, please refer to our research paper:
-- [Multiple Regression Research Paper](Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20Research%20Paper.pdf)
+- [Multiple Regression Research Paper](https://github.com/katmiller00/R-Projects/blob/88f59082715a16a823f428afbd183131d6659471/Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20Research%20Paper.pdf)
 
 ## Technologies Used
 - **R** version 4.4.0
