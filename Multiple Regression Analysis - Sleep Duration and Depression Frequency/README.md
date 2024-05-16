@@ -34,7 +34,6 @@ This project was conducted for an Econ 340 Economic Research Methods course at C
   - ggplot2 package version 3.5.1
 
 ## Features
-List the ready features here:
 - **Analysis of Sleep Duration and Depression Frequency:** Investigated the relationship between sleep duration and depression frequency using data from the National Longitudinal Survey of Youth (NLSY).
 - **Controlled Variables:** Considered additional factors such as computer time, hours worked per week, and salary wages to better understand their impact on depression.
 - **Regression Analysis:** Utilized multiple regression analysis techniques to explore the relationship between sleep duration and depression while accounting for other variables.
