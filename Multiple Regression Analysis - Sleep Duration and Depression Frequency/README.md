@@ -19,6 +19,7 @@ This project was conducted for an Economic Research Methods course at California
 * [Features](#features)
 * [Tables and Graphs](#Tables-and-Graphs)
 * [Setup](#setup)
+* [R Code](#R-code)
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
@@ -30,7 +31,6 @@ This project was conducted for an Economic Research Methods course at California
 ## Research Paper
 
 For more detailed information, please refer to our research paper:
-
 - [Multiple Regression Research Paper](Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20Research%20Paper.pdf)
 
 ## Technologies Used
@@ -92,6 +92,11 @@ For more detailed information, please refer to our research paper:
     setwd("path/to/project/folder")
     ```
 3. **Run the Analysis**: Open `analysis.R` and run the code.
+
+## R Code
+
+For the complete R code used in this project, please refer to it here:
+- [Multiple Regression R Code](Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20R%20Code.R) 
 
 ## Usage
 Explore my project's functionalities with these examples:
