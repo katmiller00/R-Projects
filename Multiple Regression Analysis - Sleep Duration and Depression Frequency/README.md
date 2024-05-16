@@ -12,7 +12,6 @@
 This project was conducted for an Economic Research Methods course at California State University, Fullerton. See [Acknowledgements](#acknowledgements)
 
 ## Table of Contents
-
 * [General Info](#general-information)
 * [Research Paper](#research-paper)
 * [Technologies Used](#technologies-used)
@@ -29,7 +28,6 @@ This project was conducted for an Economic Research Methods course at California
 - This project investigates the relationship between sleep duration and depression frequency using data from the National Longitudinal Survey of Youth (NLSY). We analyzed whether individuals who sleep fewer hours are more likely to experience depression, controlling for variables such as computer time, hours worked per week, and salary wages. Our findings indicate a weak negative relationship between sleep duration and depression frequency, suggesting that insufficient sleep is associated with a higher likelihood of depression. However, the influence of each variable on depression is minimal, highlighting the need for further research to consider additional factors like genetic predisposition, social support, and lifestyle. The results emphasize the importance of promoting healthy sleep habits to reduce depression risk potentially.
 
 ## Research Paper
-
 For more detailed information, please refer to our research paper:
 - [Multiple Regression Research Paper](https://github.com/katmiller00/R-Projects/blob/88f59082715a16a823f428afbd183131d6659471/Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20Research%20Paper.pdf)
 
@@ -69,8 +67,7 @@ For more detailed information, please refer to our research paper:
   - dplyr package version 1.1.4
   - ggplot2 package version 3.5.1
 
-### Installation
-
+### Installation=
 1. **Install R**: [Download from CRAN](https://cran.r-project.org/).
 2. **Install Packages**: Run in R:
     ```R
@@ -85,7 +82,6 @@ For more detailed information, please refer to our research paper:
     cd R-Projects/Multiple\ Regression\ Analysis\ -\ Sleep\ Duration\ and\ Depression\ Frequency
     ```
 ### Getting Started
-
 1. **Open RStudio** or your preferred R environment.
 2. **Set Working Directory**:
     ```R
@@ -94,15 +90,13 @@ For more detailed information, please refer to our research paper:
 3. **Run the Analysis**: Open `analysis.R` and run the code.
 
 ## R Code
-
 For the complete R code used in this project, please refer to it here:
-- [Multiple Regression R Code](Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20R%20Code.R) 
+- [Multiple Regression R Code](https://github.com/katmiller00/R-Projects/blob/ab7bbacaa49463ebd219f3c879fa99f4f8c6e65c/Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20R%20Code.R).
 
 ## Usage
 Explore my project's functionalities with these examples:
 
 ### Example 1: Generate a Scatter Plot
-
 1. **Load Libraries**:
     ```R
     library(ggplot2)
