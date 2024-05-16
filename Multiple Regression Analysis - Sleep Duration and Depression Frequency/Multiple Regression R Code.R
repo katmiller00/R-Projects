@@ -9,7 +9,7 @@ library(dplyr)
 #Load and prepare data
 ################################################################################
 
-# Load data
+#Load data
 data <- read.csv("nlsy.csv")
 
 #Clean data 
