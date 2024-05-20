@@ -91,7 +91,7 @@ For more detailed information, please refer to our research paper:
 
 ## R Code
 For the complete R code used in this project, please refer to it here:
-- [Multiple Regression R Code](https://github.com/katmiller00/R-Projects/blob/ab7bbacaa49463ebd219f3c879fa99f4f8c6e65c/Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20R%20Code.R).
+- [Multiple Regression R Code](https://github.com/katmiller00/R-Projects/blob/82b7d7b81d36c7c9a25958fe036d92c45776e4cf/Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/Multiple%20Regression%20R%20Code.R)
 
 ## Usage
 Explore my project's functionalities with these examples:
