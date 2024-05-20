@@ -6,13 +6,13 @@ library(stargazer) # pretty looking tables
 library(dplyr)
 
 ################################################################################
-#Load and prepare data
+#Load and Prepare Data
 ################################################################################
 
-#Load data
+#Load Data
 data <- read.csv("nlsy.csv")
 
-#Clean data 
+#Clean Data 
 new_data <- data %>% 
   select(sleep_hours_pernight,computer_hours_perweek,depressed_lastmo,hours_wk_yr,wage_sal)
 
@@ -31,11 +31,11 @@ new_data <- new_data %>%
 
 new_data <- na.omit(new_data)
 
-#Creating dummy variable for depression
+#Create Dummy Variable for Depression
 new_data <- new_data %>% 
   mutate(depressed_lastmo = ifelse(depressed_lastmo=="None of the time",0,1)) 
   
-#Create dummy variable, 1 denoting some of the time and all of the time, 0 denoting none of the time
+#Create Dummy Variable, 1 denoting some of the time and all of the time, 0 denoting none of the time
 new_data$computer_hours_perweek <- ifelse(new_data$computer_hours_perweek =="None"|
                                             new_data$computer_hours_perweek =="Less than 1 hour a week"|
                                             new_data$computer_hours_perweek == "1 to 3 hours a week", 0, 1)
@@ -49,10 +49,10 @@ new_data %>%
   stargazer(type = 'text', digits = 2, median=TRUE)
 
 ################################################################################
-#Relationship between sleep  and depression ratio
+#Relationship Between Sleep  and Depression Ratio
 ################################################################################
 
-#Load necessary libraries
+#Load Necessary Libraries
 library(ggplot2)
 
 ggplot(new_data, aes(x = sleep_hours_pernight, y = factor(depressed_lastmo), fill = factor(depressed_lastmo))) +
@@ -75,10 +75,10 @@ new_data %>%
   stargazer(type = 'text', digits = 2) 
 
 ################################################################################
-#Regression analysis 
+#Regression Analysis 
 ################################################################################
 
-#Linear regression 
+#Linear Regression 
 lm(formula = depressed_lastmo ~ sleep_hours_pernight, data=new_data)
 model1 <- lm(depressed_lastmo ~ sleep_hours_pernight, data=new_data)
 summary(model1)
@@ -86,7 +86,7 @@ confint(model1)
 stargazer(model1, type="text",
           keep.stat = c("n", "adj.rsq"))
 
-#Multiple regression analysis 
+#Multiple Regression Analysis 
 model2 <- lm(depressed_lastmo ~ sleep_hours_pernight + computer_hours_perweek, data=new_data)
 stargazer(model1, model2, type="text",
           keep.stat = c("n", "adj.rsq"))
