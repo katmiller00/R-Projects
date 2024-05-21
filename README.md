@@ -22,14 +22,7 @@ For detailed information, please refer to the [Project 1 README](./Multiple%20Re
 For detailed information, please refer to the [Project 2 README](./Multiple%20Regression%20Analysis%20-%20Sleep%20Duration%20and%20Depression%20Frequency/README.md).
 
 ## Technologies Used
-**Project 1: Multiple Regression Analysis - Sleep Duration and Depression Frequency**
-- **R** version 4.4.0
-  - tidyverse package version 2.0.0
-  - stargazer package version 5.2.3
-  - dplyr package version 1.1.4
-  - ggplot2 package version 3.5.1
-
-**Project 2: Multiple Regression Analysis - Impact of Energy Assistance Programs on Low-Income Households**
+**Project 1: Multiple Regression Analysis - Impact of Energy Assistance Programs on Low-Income Households**
 - **R** version 4.4.0
   - tidyverse package version 2.0.0
   - stargazer package version 5.2.3
@@ -37,6 +30,13 @@ For detailed information, please refer to the [Project 2 README](./Multiple%20Re
   - tidyr package version 1.3.1
   - ggplot2 package version 3.5.1
   - janitor package version 2.2.0
+ 
+**Project 2: Multiple Regression Analysis - Sleep Duration and Depression Frequency**
+- **R** version 4.4.0
+  - tidyverse package version 2.0.0
+  - stargazer package version 5.2.3
+  - dplyr package version 1.1.4
+  - ggplot2 package version 3.5.1
 
 ## Contact
 Kat Miller - katherine.s.miller@outlook.com & [LinkedIn](https://linkedin.com/in/katmiller00)
